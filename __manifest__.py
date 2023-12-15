@@ -19,14 +19,17 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base','product','point_of_sale'],
 
     # always loaded
     'data': [
         'views/templates.xml',
+        'security/ir.model.access.csv',        
     ],
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
     ],
+    'qweb':['static/src/xml/product_brand.xml'],
+    'auto_install': True,
 }
