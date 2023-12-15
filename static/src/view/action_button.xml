@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template id="template" xml:space="preserve">
+    <t t-name="DashBoardButton">
+        <div class="control-button">
+            <i class="fa fa-dashboard"/> Room Booking
+        </div>
+    </t>
+</template>
+
